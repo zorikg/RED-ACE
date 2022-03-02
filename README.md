@@ -1,6 +1,10 @@
 # RED-ACE
 Data and code for the RED-ACE paper.
 
+RED-ACE is an ASR Error Detection (AED) model.
+Our approach is based on a modified BERT encoder with an additional embedding layer, that jointly encodes the textual input and the word-level confidence scores into a contextualized representation. Our AED pipeline first quantizesthe confidence scores into integers and then feedsthe quantized scores with the transcribed text into the modified Transformer encoder
+
+
 ## Data
 Our dataset contains ASR outputs on the [LibriSpeech](https://www.openslr.org/12/) ASR corpus with annotated transcription errors. 
 
