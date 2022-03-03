@@ -49,6 +49,6 @@ The data is placed in a public Google Cloud Storage Bucket and can be downloaded
 this [link](https://storage.googleapis.com/gresearch/red-ace/data.zip).
 
 
-## Data
+## Code
 
 The paper is currently under review, we will release the full code upon acceptance.
