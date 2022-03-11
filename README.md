@@ -11,9 +11,9 @@ Our AED pipeline first quantizesthe confidence scores into integers and then fee
 ![alt text](https://github.com/zorikg/RED-ACE/blob/main/figures/diagram.png)
 
 ## Data
-Our dataset contains ASR outputs on the [LibriSpeech](https://www.openslr.org/12/) ASR corpus with annotated transcription errors. 
+Our dataset contains ASR outputs on the [LibriSpeech](https://www.openslr.org/12/) corpus with annotated transcription errors. 
 
-To generate the dataset we first decode the LibriSpeech audio the candidate ASR model and obtain the transcription hypothesis. Then, wea lign the hypothesis words with the reference (correct) transcription.  Specifically, we find an edit path, between the hypothesis and the reference, with the minimum edit distance and obtain a sequence of edit operations (insertions, deletions and substitutions) that can be used to transform the hypothesis into the reference. Every incorrect hypothesis word (i.e needs to be deleted or substituted)is labeled as ERROR and the rest are labeled as NOTERROR.
+To generate the dataset, we first decode the LibriSpeech audio using the candidate ASR model and obtain the transcription hypothesis. Then, wea lign the hypothesis words with the reference (correct) transcription.  Specifically, we find an edit path, between the hypothesis and the reference, with the minimum edit distance and obtain a sequence of edit operations (insertions, deletions and substitutions) that can be used to transform the hypothesis into the reference. Every incorrect hypothesis word (i.e needs to be deleted or substituted)is labeled as ERROR and the rest are labeled as NOTERROR.
 
 We used 2 different ASR models from [Google Cloud Speech-to-Text API](https://cloud.google.com/speech-to-text), `default` and `video` (see [here](https://cloud.google.com/speech-to-text/docs/basics#select-model)).
 
