@@ -1,6 +1,9 @@
 # RED-ACE
 Data and code for the RED-ACE paper.
 
+Our dataset is placed in a public Google Cloud Storage Bucket and can be downloaded from
+this [link](https://storage.googleapis.com/gresearch/red-ace/data.zip).
+
 RED-ACE is an ASR Error Detection (AED) model.
 Our approach is based on a modified BERT encoder with an additional embedding layer, that jointly encodes the textual input and the word-level confidence scores into a contextualized representation.
 
