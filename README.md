@@ -48,6 +48,8 @@ Additional details and data description can be found in the paper.
 The data is placed in a public Google Cloud Storage Bucket and can be downloaded from
 this [link](https://storage.googleapis.com/gresearch/red-ace/data.zip).
 
+## Evaluation Script
+Is available in `evaluation.py`.
 
 ## Code
 
