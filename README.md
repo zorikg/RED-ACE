@@ -1,5 +1,5 @@
 # RED-ACE
-Data and code for the [RED-ACE: Robust Error Detection for ASR using Confidence Embeddings](https://arxiv.org/abs/2203.07172).
+Data and code for [RED-ACE: Robust Error Detection for ASR using Confidence Embeddings](https://arxiv.org/abs/2203.07172).
 
 Our dataset is placed in a public Google Cloud Storage Bucket and can be downloaded from
 this [link](https://storage.googleapis.com/gresearch/red-ace/data.zip) (more details below).
