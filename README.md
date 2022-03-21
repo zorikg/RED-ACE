@@ -9,7 +9,7 @@ Our approach is based on a modified BERT encoder with an additional embedding la
 
 ![alt text](https://github.com/zorikg/RED-ACE/blob/main/figures/tagger.png)
 
-Our AED pipeline first quantizesthe confidence scores into integers and then feeds the quantized scores with the transcribed text into the modified BERT encoder.
+Our AED pipeline first quantizes the confidence scores into integers and then feeds the quantized scores with the transcribed text into the modified BERT encoder.
 
 ![alt text](https://github.com/zorikg/RED-ACE/blob/main/figures/diagram.png)
 
